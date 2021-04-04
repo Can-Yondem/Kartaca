@@ -6,9 +6,11 @@ Projeyi indirdikten sonra aşağıdaki adımlar sırayla uygulanmalıdır.
 3. Apache kafkayı çalıştırıyoruz.
 4. terminalden cd log-store ile log-store dizinine geçiyoruz.
 5. node topic.js ve node consumer.js ile dosyalarımızı çalıştırıyoruz.
+6. Canlı HTTP requestleri izleyebilmek için client klasörü içindeki index.html bir live serverde çalıştırılmalıdır. Çalıştırıldıktan sonra HTTP Requestler canlı olarak izlenebilir.
 
-
-## 
+## Api Istekleri
+- Apiye localhost:3000/posts adresinden Postman ile http requestler gönderilebilir.
+- Put request için localhost:3000/posts/idno ile istek yollanabilir.
 
 
 # Özel Anahtar Kodu
