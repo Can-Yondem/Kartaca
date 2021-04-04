@@ -11,6 +11,7 @@ Projeyi indirdikten sonra aşağıdaki adımlar sırayla uygulanmalıdır.
 ## Api Istekleri
 - Apiye localhost:3000/posts adresinden Postman ile http requestler gönderilebilir.
 - Put request için localhost:3000/posts/idno ile istek yollanabilir.
+- APİ POST VE DELETE isteklerini boş body ile kabul edebilmektedir.
 
 
 # Özel Anahtar Kodu
