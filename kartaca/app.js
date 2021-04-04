@@ -25,7 +25,7 @@ app.get("/",(req,res) => {
 
 
 //DB Connection
-mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true },() =>
+mongoose.connect("mongodb+srv://Onur:Rolf1234@rest.zyd2p.mongodb.net/rest", { useNewUrlParser: true },() =>
  console.log("DB'ye bağlantı başarılı..."));
  
 
